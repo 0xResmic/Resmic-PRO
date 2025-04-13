@@ -1,0 +1,44 @@
+{
+  "name": "resmicprobackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js & node src/emails/queus/emailWorker.js",
+    "start": "node src/emails/queus/emailWorker.js & node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@alch/alchemy-sdk": "^1.2.0",
+    "alchemy-sdk": "^3.5.4",
+    "async-mutex": "^0.5.0",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "bignumber.js": "^9.1.2",
+    "bullmq": "^5.39.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "ioredis": "^5.4.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "nanoid": "^3.3.4",
+    "nodemailer": "^6.10.0",
+    "otp-generator": "^4.0.1",
+    "pg": "^8.13.1",
+    "redis": "^4.7.0",
+    "uuid": "^11.0.5",
+    "validator": "^13.12.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

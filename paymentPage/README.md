@@ -1,0 +1,1 @@
+You need to update the deployed contract address into the `src/components2/Constant.js`
