@@ -7,7 +7,7 @@ Resmic is an **open-source, decentralised crypto payment infrastructure** that l
 
 This guide helps you self-host Resmic entirely on your own infrastructure: smart contracts, backend services, database, payment front-end, and dashboard.
 
-If you prefer the hosted solution, you can skip all of this and start instantly at [https://resmic.com](https://resmic.com).
+If you prefer the hosted solution, you can skip all of this and start instantly at [https://dashboard.resmic.com](https://dashboard.resmic.com).
 
 ---
 
@@ -24,10 +24,10 @@ If you prefer the hosted solution, you can skip all of this and start instantly 
 
 ## 📂 GitHub Repositories
 
-- **Smart Contracts**: [Resmic SC Repo](https://github.com/0xResmic/Resmic-PRO/smartContract)
-- **Backend Server**: [Resmic Backend](https://github.com/0xResmic/Resmic-PRO/backend)
-- **Payment Page (Frontend)**: [Resmic Payment Page](https://github.com/0xResmic/Resmic-PRO/paymentPage)
-- **Dashboard (Frontend)**: [Resmic Dashboard](https://github.com/0xResmic/Resmic-PRO/dashboard)
+- **Smart Contracts**: [Resmic SC Repo](https://github.com/0xResmic/Resmic-PRO/tree/main/smartContract)
+- **Backend Server**: [Resmic Backend](https://github.com/0xResmic/Resmic-PRO/tree/main/backend)
+- **Payment Page (Frontend)**: [Resmic Payment Page](https://github.com/0xResmic/Resmic-PRO/tree/main/paymentPage)
+- **Dashboard (Frontend)**: [Resmic Dashboard](https://github.com/0xResmic/Resmic-PRO/tree/main/dashboard)
 
 ---
 
